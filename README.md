@@ -4,7 +4,16 @@ Rundeck is an open source automation service with a web console, command line to
 
 * this docker launch a rundeck cluster with two node
 
-* Configure rundeck directly in the docker-compose.yml
+* three commands ;)
+
+```
+git clone https://github.com/remijouannet/docker-rundeck.git
+cd docker-rundeck
+docker-compose up
+```
+
+
+* if you wan to configure rundeck
 
 ```
 MYSQL_DATABASE: rundeck #database for rundeck
@@ -71,13 +80,7 @@ rundeck2:
 
 ```
 
-* three commands ;)
 
-```
-git clone https://github.com/remijouannet/docker-rundeck.git
-cd docker-rundeck
-docker-compose up
-```
 
 after that juste access the web ui with the following link :
 * https://localhost:4443/, for the first node
