@@ -4,9 +4,6 @@ FROM debian:jessie
 
 MAINTAINER Rémi Jouannet "remijouannet@gmail.com"
 
-ENV http_proxy http://proxy.neurones.fr:8080/
-ENV https_proxy http://proxy.neurones.fr:8080/
-
 RUN apt-get update
 RUN apt-get install -y bash ca-certificates openjdk-7-jre-headless
 RUN apt-get install -y openssh-client pwgen curl git vim uuid-runtime
